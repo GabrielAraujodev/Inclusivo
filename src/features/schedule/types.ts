@@ -1,9 +1,5 @@
-export interface Activity {
-  id: string;
-  time: string;
+export type NewActivity = {
+  id: number;
   title: string;
-  icon: string;
   description: string;
-}
-
-export type NewActivity = Omit<Activity, 'id'>;
+};

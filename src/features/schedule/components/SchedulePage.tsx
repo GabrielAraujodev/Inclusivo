@@ -1,4 +1,5 @@
 import { useSchedule } from "../hooks/useSchedule";
+import { NewActivity } from "../types";
 import { ScheduleHeader } from "./ScheduleHeader";
 import { VisualSchedule } from "./VisualSchedule";
 import { useToast } from "@/hooks/use-toast";
